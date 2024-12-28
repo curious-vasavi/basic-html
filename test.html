@@ -1,0 +1,374 @@
+<!--html doc has .html or .htm as extension-->
+<!DOCTYPE html>
+<!--it specifies the type of the document-->
+<!--now this is a comment written side the angular bracets with "!" .this content is visible to the user.it is just for understanding purpose-->
+<html lang="en">
+    <!--this specifies the language as english . you can even add your coutry code in here-->
+<head>
+    <!--it is container for everything includes in web page it has meta tags,title,and link tags(which usually use to link any web pages)
+    the content written inside the head tag is not visible in the user interface-->
+    <meta charset="UTF-8"><!--it tells the encoding no. of the web page.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meata tags have the info of the other web pages-->
+    <title>Document</title>
+    <!--it gives the title of the web page that is not visible on the web page-->
+    <!--after title we can use link to link any css files-->
+    <link rel="stylesheet" type="imgagae/icon" href="./html favicon.ico">
+    <!-- here in this link you can add the fav icon that is . the image in this link is seen on the browser of the web page-->
+     <style>
+    /*this is a universal selector */
+        *{
+             padding: 0;
+             line-height: 1.5px;
+             background-color: grey;
+             color: white;
+            
+        }
+     </style>
+</head>
+<!--html is semantic that is understandable by the user.-->
+<body link="" alink="green" vlink="black" style="background-image:url(https://plus.unsplash.com/premium_photo-1701534008693-0eee0632d47a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D)">
+    <!--html,head,body are called as the structural tags-->
+    <h2>HEADING TAGS</h2>
+    <h1>This is heading tag 1</h1>
+    <!--h1 has the highest priority-->    
+    <h2>This is heading tag 2</h2>
+    <h3>This is heading tag 3</h3>
+    <h4>This is heading tag 4</h4>
+    <h5>This is heading tag 5</h5>
+    <h6>This is heading tag 6</h6>
+    <!--h6 has the lowest priority-->
+    <!--all these tags are known as heading tags-->
+    <hr>
+    <!--next we have the text formatting tags-->
+    <h2>USE OF LOREM</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, enim!</p>
+    <hr>
+    <h2>TEXT FORMATTING TAGS</h2>
+    <p>I'm Vasavi Mangaraju <i>It's been a while that I started letting go of them.</i> Thats quite intresting at the same time thats<strong> hard and complicated. </strong>as I'm a emotional person. I finally understood that if stop pleasing others.
+    You could actually <u>explore your self out.</u>I think doing what you like is what brings you happiness and peace within.
+    i will <del>never let those people back in life.</del>Like never ever.😉</p>
+    <!--now that we have written tags inside tags this are called the nested tags or line tags-->
+    <hr>
+    <!--html has a indentation that keeps the code neat and clean there will be no error even if you don't use it.-->
+    <H2>NO BREAK SPACING</H2>
+    <p>I Like Being Bold Independent
+            Curious
+             Exploring
+             and Enjoying
+                My Life .</p>
+    <!--look here i have used each word in different lines. but it only considers one space called as no break spacing. whitespacing is allowed but it only outputs a single space between the wording-->          
+    <hr>
+    <h1>LIST TAG's</h1>
+    <!--these are used to have a collection of items there are three types-->
+    <ol>
+        <dt><B>ORDRED TAG</B></dt>
+        <br>
+        <!--by default it will consider number as types and content wrapped here will be numbered sequeally-->
+        <li>Here ol is the ordered tag.</li>
+        <li>li is the list item, every item should be in this tag.</li>
+        <li>Here the types are 1/A/a/I/i these are the tags.</li>
+        <li>Here by default type is 1</li>
+        <li>Every thing written inside will be order based on tbe type.</li>
+        <br>
+        <dt><b>UNORDERED LIST</b></dt>
+         <!-- <dt><b>UNORDERED LIST</b></dt> -->
+    </ol>
+          <ul>
+            <li>This is unordered list.</li>
+            <li>By default it considers the bullet type.</li>
+            <li>it has circle,square and disc by default.</li>
+            <li>It has unordered list.</li>
+          </ul>
+          
+    <ol>
+          <dt><B>DESCRIPTION LIST</B></dt>
+          <dl>
+          <dt>It is used to display the term (dt) and its description (dd).</dt>
+          <dt>It is used to many ways like in groceries list n description, for question and answers,  </dt>
+          <dd>it has an indentation that which helps to write a description in unique way.</dd>
+        </dl>
+        </ol>
+       <hr>
+       <br>
+    <!--this tag is used to break the line.-->
+    &nbsp; &nbsp; &nbsp; 
+    <h2>LINK TAG</h2>
+    <!--here nbsp is no breaking space it is used to give extra space between the lines or characters.-->
+    <a href="https://www.google.com" target="_self" title="google">click here</a>
+    <P>LINK is of two types 1. absolute link and 2.relative link.</P>
+    <br>
+    <p>absolute link is the main url with https and www. , whereas the relative url is the link of the html page.</p>
+    <!--it allows user to navigate between the webpages.
+    it is a hyperlink in html-->
+    <hr>
+    <a href="https://www.mozilla.org/en-US/firefox/" title="website" target="_blank" >firefox</a>
+    <!--title attribute is a tool tip -->
+    <!--target attribute is allows us to choose the web page of the link-->
+    <!--target=self allows us to open the page in self page-->
+    <!--target=blank allows us to access the webpage in the new tab-->
+    <a href="tel:+6309370530" target="_self" title="contact">call her!!</a>
+    <br>
+    <hr>
+    <H2>IMAGE TAG</H2>
+    <img src="./myself.jpg.jpeg" alt="myself" title="I💗U">
+    <br>
+    <hr>
+    <H2>VIDEO TAG</H2>
+    <video src="./my vdo.mp4" width="150px" height="150px" controls muted autoplay loop poster="./myself.jpg.jpeg" title="me!!"></video>
+    <hr>
+    <H2>AUDIO TAG</H2>
+    <br>
+    <audio src="../Man Se Bada Behrupiya Na Koi.mp3" controls muted loop ></audio> <br>
+    <hr>
+    <H2>IFRAME TAG</H2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15216.139793639528!2d78.44108889999998!3d17.553522700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1732527858582!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <hr>
+    <!-- <h2>TABLE TAGS</h2>
+    table allows us to enter the data in rows and columns.it is uses in many ways it we use attributes called as border for the borders of your choice. 
+    then cellspacing is for space the cell within the cells.
+    cellpadding is the space between the cells-->
+    <!-- <table cellspacing="2" cellpadding="3">
+        tr>
+    </table>  -->
+    <h3>PHARSE TAGS IN HTML</h3>
+
+    <address>
+       
+        H.No. 1541 old M.I.G <br>
+        BHEL Serilingampally <br>
+        502032 Hyderabad Telangana <br>
+
+    </address>
+    <hr>
+    <code>
+        for(i=1;i<=5;i++) <br>
+        {
+           <br>
+            console.log(hi);
+            <br>
+        }
+    </code>
+    <br>
+    
+    <hr>
+    <abbr title="youtube">YT</abbr>
+    <br>
+    <!-- <blockquote cite="www.google.com"><p>Its a famous web browser.</p><cite>-sundar pichai</cite></blockquote> -->
+    <blockquote cite="https://www.googe.com"><p>The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.</p></blockquote>   
+ <cite>-Mark Caine</cite>  
+ <!--the content written inside the quotation tag is considered as the quotation .-->
+ <br>
+ <p><em>hi</em> how r u?</p>
+ <!--this tag emphasises the italic font of the text written inside the tag-->
+ <acronym>geeksforgeeks</acronym>
+ <br>
+ <!--this indicates that the content inside is the acronym. it is not supported in html5 -->
+ <br>
+ <!--this bdo tag indicates Bi directional overriding. usually the text is in left to right direction.-->
+<bdo dir="rtl"> vasavi <p>the attribute rtl means right to left which means the content in it will display in right to left direction.</p></bdo>
+<br>
+<bdo dir="ltr">Mangaraju <p>the attribute ltr means the content in it is displayed in left to right direction . this is by default</p></bdo>
+<br>
+<bdo dir="auto">perfect <p>this is auto the browser will decide the direction . it is mainly used when direction is unknown.</p></bdo>
+<!-- the words that appear red in the code are not generally supported by html 5. that is we shouldn't be using them.-->
+ <p>I <mark>love</mark> myself!!💖</p>
+ <!--mark tag is used to highlight the text.-->
+ <p>Here we are using samp tap .<samp>the output written in the samp tag prints the same output.</samp></p>
+ <hr>
+ <h2>META TAGS</h2>
+ <p>meta tags are have information about information .<br>But it doesn't effect the output . <br>It is all related to the webbrowser so we don't use it the code generally.</p>
+ <meta name="description" content="html , css , js">
+ <meta http-equiv="refersh" content="3">
+ <!--http-equiv it controls the behaviour of the web page. here in above line it means it refresh the web page every 3 seconds.-->
+ <br>
+ <hr>
+ <h2>IMAGE TAG</h2>
+ <img src="../imgs/atomic habit.jpeg" alt="book">
+ <img src="./myself.jpg.jpeg" alt="me">
+ <style>
+    img{
+        height: 200px;
+        width: 150px;
+    }
+ </style>
+ <hr>
+ <h2>HTML TABLE</h2>
+ <table border="10px" cellspacing="2px" cellpadding="2px">
+    <caption>BeanCoffeeCafe☕</caption>
+    <!--TABLE IS COLLECTION OF ROWS AND COLUMNS-->
+    <tr>
+        
+            <tH>S.NO</tH>
+            <tH>ITEM</tH>
+            <tH>PRICE</tH>
+       
+    </tr>
+    <tr>
+        <th>1</th>
+        <td>Black coffee</td>
+        <td>Rs. 60</td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td>Coffee</td>
+        <td>Rs. 30</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>Cold Coffee</td>
+        <td>Rs. 70</td>
+    </tr>
+    <tr>
+        <th>4</th>
+        <td>Ice Coffee</td>
+        <td>Rs. 70</td>
+    </tr>
+    <tr>
+        <th>5</th>
+        <td>Espresso</td>
+        <td>Rs. 80</td>
+    </tr>
+    <tr> 
+        <th colspan="2">Grand Total</th>
+        <td>Rs. 310</td>
+        <!--colspan is used to merge 2 columns similarly rowspan is also used to merge rows.-->
+    </tr>
+ </table>
+ <HR>
+ <h2>HTML LIST</h2>
+ <!--LIST ARE COLLECTION OF ITEMS-->
+ <p>we have already discussed the lists earlier .</p>
+ <ol type="1">
+    <li>OREDERED LIST</li>
+    <dd>Items are ordered in this list.</dd>
+    <li>UNORDERED LIST</li>
+    <dd>Items here are unordered.</dd>
+    <li>DESCRIPTION LIST</li>
+    <dd> here it describes the Items and it's description.</dd>
+ </ol>
+ <hr>
+ <h2 style="background-image: url(./myself.jpg.jpeg)" >HTML BLOCK</h2>
+ <div style="background-color: tomato;">
+    <p> we used the background-image tag in the above line.</p> 
+ <p style="border: 10px black;">hello world</p>
+</div>
+ <div style="color:blue;background-color: rgb(156, 215, 156); border: solid 5px black;">
+    <!--div is the block element in html.-->
+    <p>it is used to divide the page in different sectkions.</p>
+    <p>it takes the space as needed.</p>
+    <P >This are the list of bikes</P>
+    <ul>
+        <li>pept</li>
+        <li>honda</li>
+        <li>activa</li>
+        <li>wego</li>
+        <li>jupiter</li>
+    </ul>
+ </div>
+<br>
+<div style="color: teal;border: solid 5px ; background-color: bisque;">
+    <p>List of cars</p>
+    <ul>
+        <li>BMW</li>
+        <li>HONDA</li>
+        <li>TOYATO</li>
+        <li>WAGONR</li>
+        <li>BREZZA</li>
+    </ul>
+</div>
+<br>
+<div style="background-color: rgba(230, 230, 14, 0.904); color: black; border:solid 5px green">
+    <p>we have seen that we can set the image as background too. <br> We can change the size of each division of the page using the style attribute in the div tag. <br>Using alt+z we can align the paragraph tag. <br> Using the F12 key we can inspect the code of any website.</p>   
+</div>
+ <hr>
+ <h2>HTML COLORS</h2>
+ <p>There are three different formats for coloring a webpage in html .</p>
+ <ul>
+    <li>1.Color name</li>
+    <li>2.Hex values</li>
+    <li>3.rgb</li>
+ </ul>
+ <p>Using this various methods depending on the programmers knowledge and proficency.</p>
+ <div style="color:salmon; background-color: aqua; border: solid 2px black;">
+   <p>As a beginner we usually write the color name. Which is easy and user friendly.</p>
+ </div>
+ <br>
+ <div style="color: #face; background-color: black;border: solid 2px lawngreen;">
+    <p>Hex values are used when we know the color code.It's bit complex for the beginners. It takes numbers from 0-9 and alphabets from a-f.</p>
+ </div>
+ <br>
+ <div style="color: rgb(56, 21, 89); background-color: bisque; border: solid 2px rgb(163, 33, 76);">
+    <p>Next is the rgb color code using which we can change the color easily .rgb stands for red green blue which we can change the color by mixing those numbers. 255 255 255 stands for white and 000 000 000 defines the black color.</p>
+ </div>
+ <hr>
+ <h2>HTML FONT</h2>
+ <P>We can change the font in html . using the font-family tag and mention suitable font name.</P>
+ <div style="border: 5px solid; background-color: papayawhip;">
+    <p style="font-family: Verdana;">This is verdanda font.</p>
+    <p style="font-family: 'Times New Roman';">Times new roman</p>
+    <p style="font-family: arial;">Hi</p>
+    <p style="font-family:cursive ;">Nice to see you.</p>
+    <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Finally wanna complete this course.</p>
+    <p style="font-family: calibri;">Hehe</p>
+    <p style="font-family: gill sans;">Bye</p>
+ </div>
+<br>
+<hr>
+<h2>HTML SIZES</h2>
+<P>Here we change the size of the font.without the heading tag.</P>
+<div style="color: beige; background-color: teal; border: solid 2px black;">
+    <p style="font-family: verdana;font-size: larger;">This is how we change the size of the font in html. Do you like it ??🧐</p>
+    <p style="font-size: xx-small;">How are you doing??</p>
+    <p style=" font-family:verdana;font-size:  medium;">After completing this we will do python so stay tuned.!!!!.....</p>
+    <p style="font-size: large;">Hehe</p>
+    <p style="font-size: small;">I think i'm wasting my time but i just wanna check out every posible size of the font.</p>
+    <p style="font-size: x-large;">Am I cute😛</p>
+    <p style="font-size: xx-large;">This is not me!</p>
+    <p style="font-size: xx-small;">Ufff enough now !!😂</p>
+</div>
+<br>
+<hr>
+<h2>HTML FORMS</h2>
+<P>Forms are used to collect the user input for an webpage.</P>
+<div style="border:solid 2px black; padding: 5px;">
+<form action="">
+    <label for="">First name:</label>
+    <input type="text"  name="first" placeholder="first name" required>
+    <br>
+    <br>
+    <label for="">Last name:</label>
+     <input type="text" name="last" placeholder="last name" required>
+     <br>
+     <br>
+     Gender:
+     <input type="radio" name="gender" required >Female
+     <input type="radio" name="gender" required >Male
+     <input type="radio" name="gender" required>other
+     <br>
+     <br>
+     password: &nbsp<input type="password" name="password" placeholder="password" maxlength="8" required>
+     <br>
+     <br>
+     <label for=""> Address :</label>
+     &nbsp;
+     <textarea  name= textarea required>Enter the address here!!</textarea> 
+     <br>
+     <br>
+     contact: &nbsp;  &nbsp;
+     <input type="tel" name="contact" numbers; maxlength="10" placeholder="+91" required>
+     <br><br>
+     Gmail :  &nbsp;  &nbsp;
+     <input type="email" placeholder="email@.com" required>
+     <!-- required here gives the popup in the page that the column should be filled.-->
+     <!-- <button>submit</button> -->
+     <br><br>
+     <input type="button" value="submit">
+     <button>Cancle</button>
+</form>
+</div>
+<hr>
+ <a href="#" title="click">Back to top!!</a>
+</body> 
+</html>
